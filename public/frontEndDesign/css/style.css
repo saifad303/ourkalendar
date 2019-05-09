@@ -1,0 +1,992 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+a:hover, 
+a:active,
+a:focus{
+	text-decoration: none;
+}
+
+/* ++++++++++++++++++++ CSS for header Section ++++++++++++++++++++*/ 
+
+#header{
+	background: #000;
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 26px 0 94px;
+
+}
+.navbar-default {
+     background-color: transparent; 
+     border-color: transparent; 
+}
+.navbar-default .navbar-brand{
+	color: #fff200;
+	font-weight: 700;
+	font-size: 18px;
+	margin-right: 55px;
+}
+.navbar-default .navbar-brand img{
+	margin-top: -12px;
+}
+.navbar-default .navbar-brand:hover{
+	color: #fff200;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff200;
+}
+.navbar-right .btn-default {
+    color: #000;
+    background-color: #fff200;
+    border-color: #fff200;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 7px 30px;
+    border-radius:27px;
+}
+.header-content{
+	width: 356px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.header-content h1{
+	color: #fff;
+	font-size: 28px;
+	line-height: 40px;
+	margin:0 0 20px;
+}
+.header-content span{
+	color: #fff200;
+	font-weight: 600;
+}
+.header-content .form-control, 
+.header-content .btn-default{
+	height: 44px;
+    color: #fff200;
+    background-color: transparent;
+    border-color: #fff200;
+    border-radius: 15px;
+    
+}
+.header-content .form-control {
+    border-left: none;
+}
+.header-content .btn-default{
+	border-right: none;
+	font-size: 15px;
+}
+.header-content .btn-default:active:hover,
+.header-content .form-control:focus,
+.header-content .btn-default:active,
+.header-content .btn-default:hover,
+.header-content .btn-default:focus{
+    color: #fff200;
+    background-color: transparent;
+    border-color: #fff200;
+    outline: 0 !important;
+    box-shadow: none;
+}
+
+/* ++++++++++++++++++++ CSS for Homepage-> page-main-content Section ++++++++++++++++++++*/
+
+#page-main-content{
+	background: #f8f8f8;
+}
+.widget{
+	margin-bottom: 40px;
+}
+.search-widget .btn-default, 
+.search-widget .btn-default:hover,
+.search-widget .btn-default:active {
+    color: #575050;
+    background-color: #e1d501;
+    border-color: #e1d501;
+    padding: 9px 12px;
+    outline: 0;
+}
+.search-widget .form-control {
+    height: 40px;
+    border: 1px solid #e1d501;
+    border-radius: 0;
+    box-shadow: none;
+}
+.filter-widget .search-filter {
+    margin-top: 0px; 
+}
+.widget .widget-title , 
+.all-events h4{
+	color: #191818;
+	font-size: 16px;
+	font-weight: 700;
+	margin:35px 0 30px 10px;
+}
+.widget .widget-title{
+	text-transform: uppercase;
+}
+.upcomming-event-list, 
+.searching-event-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.upcomming-event-content{
+	margin-bottom: 3px;
+}
+.upcomming-event-content,
+.searching-event-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; 
+}
+.upcomming-event-number{
+    width: 20%;
+    font-size: 28px;
+    text-align: center;
+    color: #575050;
+    background: #e1d501;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+}
+.upcomming-event-number span{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.upcomming-event-discription{
+    width: 80%;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+}
+.upcomming-event-discription h4{
+	font-weight: 700;
+	font-size: 14px;
+	color: #5f5f5f;
+}
+.upcomming-event-discription p{
+	font-weight: 400;
+	font-size: 11px;
+	color: #737373;
+}
+.event-filter-by-date{
+	background: #ffffff;
+	padding: 25px 20px;
+}
+.select-month{
+	float: left;
+}
+.select-year{
+	float: right;
+}
+.select-month select, 
+.select-year select{
+	font-size: 16px;
+	background: transparent;
+	color: #575050;
+	border: none;
+	box-shadow: none;
+	outline: 0;
+	margin-bottom: 20px;
+}
+.select-year select{
+	padding-right: 20px;
+}
+.searching-event-list{
+	margin-top: 20px;
+}
+.searching-event-date{
+	font-size: 24px;
+	color: #575050;
+	width: 20%;
+}
+.searching-event-discription{
+    width: 80%;
+    border-bottom: 1px solid #d7d4d4;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.searching-event-discription:last-child{
+	border-bottom: none;
+}
+.searching-event-discription time{
+	font-size: 12px;
+	font-weight: 600;
+	color: #898686;
+}
+.searching-event-discription ul li button{
+	background: transparent;
+	border-color: transparent;
+	outline: 0 !important;
+	color: #e0dede;
+	font-size: 14px;
+}
+.searching-event-discription p{
+	color: #575050;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.all-events .thumbnail {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.all-events .thumbnail .caption{
+	padding: 9px 2px 9px;
+}
+.all-events .thumbnail .caption p{
+	font-size: 16px;
+	margin:10px 0 10px;
+	color: #191818;
+}
+.event-by-category h4{
+    margin: 0 0 20px 0;
+}
+.top-ad{
+	margin-top: 80px;
+}
+
+/* This code for select arrow change */
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+     display: none;
+}
+.select-language, 
+.select-month, 
+.select-year, 
+.all-date, 
+.all-countries, 
+.all-event, 
+.filter,
+.sort{
+	position: relative;
+}
+.select-language:after{
+	font-family: FontAwesome;
+	content: "\f107";
+	position: absolute;
+	color: #fff;
+	top: 22px;
+    right: 35px;
+    font-size: 18px;
+    pointer-events: none;
+}
+.select-month:after, 
+.select-year:after{
+	font-family: FontAwesome;
+	content: "\f0d7";
+	position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: 16px;
+    pointer-events: none;
+    color: #575050;
+}
+.all-event:after, 
+.all-countries:after, 
+.all-date:after, 
+.sort:after{
+	font-family: FontAwesome;
+	content: "\f107";
+	position: absolute;
+    top: 20px;
+    right: 8px;
+    font-size: 16px;
+    pointer-events: none;
+    color: #575050;
+}
+.all-countries:after, 
+.all-date:after{
+	top: 48px;
+}
+.sort:after{
+	top: 9px;
+	right: 12px;
+}
+
+/* ++++++++ For widget collapse ++++++++  */
+
+.collapse-widget{
+	margin-bottom: 20px;
+}
+
+.collapse-btn{
+	width: 100%;
+    padding: 15px 12px;
+    border-radius: 0;
+    border: 1px solid #e1d501;
+    background: #fff;
+    outline: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+.collapse-btn.active.focus, 
+.collapse-btn.active:focus, 
+.collapse-btn.focus, 
+.collapse-btn:active.focus, 
+.collapse-btn:active:focus, 
+.collapse-btn:focus,
+.collapse-btn:active {
+    outline: 0 !important;
+    box-shadow: none;
+} 
+.collapse-btn ul, 
+.collapse-btn .widget-title{
+	margin: 0;
+}
+.collapse-btn .widget-title{
+	color: #191818;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* ++++++++++++++++++++ CSS for Event Details page-> page-main-content Section ++++++++++++++++++++*/
+
+.event-details-padding{
+	padding: 57px 0 60px;
+}
+.event-details-heading{
+	padding: 23px 0 11px;
+	background: #ffffff;
+	color: #3a3a3a;
+	font-size: 16px;
+	margin-bottom: 53px;
+}
+.blank-page{
+	padding-bottom: 50px;
+}
+.blank-page h1{
+	margin-bottom: 30px;
+}
+.event-details-heading .interest ul li button{
+	border: none;
+	background: #f8eb08;
+	width: 130px;
+	height: 40px;
+	font-size: 18px;
+	outline: 0;
+}
+.event-details-heading .interest ul li .interested i{
+	color: #3db308;
+}
+.event-details-heading .interest ul li .un-interested i{
+	color: #ed1c24;
+}
+.highlight-date{
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.highlight-date span{
+	color: #d96f6f;
+	font-size: 17px;
+	display: block;
+}
+.event-details-heading h2{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 40px;
+	margin-top: 0;
+}
+.event-details-heading .post-meta p{
+	font-size: 15px;
+}
+.event-details-heading .post-meta p a{
+	color: #7a08e4;
+}
+.event-details-heading .post-meta .author-info{
+	margin-top: 10px;
+}
+.event-details-heading .post-meta .author-img img{
+	margin-top: -40px;
+}
+.event-thumbnail{
+	border: 5px solid #ffffff;
+	margin-bottom: 18px;
+}
+.event-details-content{
+	background: #fff;
+	color: #3a3a3a;
+	padding: 30px;
+	font-size: 16px;
+}
+.event-details-content h3{
+	font-size: 29px;
+	margin: 0 0 20px;
+	font-weight: 600;
+}
+.event-details-content p{
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+.event-details{
+	margin-bottom: 13px;
+}
+.event-details-comment{
+	background: #fff;
+	padding: 20px;
+	color: #3a3a3a;
+}
+.event-details-comment .comment-heading{
+	font-weight: 600;
+	font-size: 16px;
+}
+.event-details-comment .comment-heading .comment-count{
+	background: #e2dede;
+	padding: 0 12px;
+	border-radius: 20px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.comment-privacy{
+	padding: 20px;
+	border: 1px solid #eeebeb;
+	font-size: 16px;
+	margin: 15px 0 40px;
+	border-radius: 5px;
+}
+.comment-privacy p{
+	margin: 0;
+}
+.comment-privacy a{
+	font-weight: 600;
+	color: #3a3a3a;
+}
+.media-heading{
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.media-body p{
+	font-size: 12px;
+}
+.comment-meta{
+	font-size: 11px;
+	color: #737373;
+	margin-top: 15px;
+}
+.comment-meta .comment-like button{
+	background-color: transparent;
+	border: none;
+	outline: 0;
+}
+.event-reminder-and-location{
+	background: #ffffff;
+	padding: 25px 0 40px 20px;
+	font-size: 16px;
+	color: #3a3a3a;
+}
+.event-reminder-and-location i{
+	font-size: 30px;
+	color: #3a3939;
+}
+.event-reminder a{
+	color: #a26aeb;
+} 
+.event-reminder .col-md-10 ,
+.event-location .col-md-10{
+    padding-left: 0px;
+}
+.event-location{
+	margin-top: 40px;
+}
+.event-location .event-location-venue{
+	color: #747373;
+}
+.interested-people .widget-title{
+	text-transform: capitalize;
+	font-size: 29px;
+	font-weight: 600;
+}
+.interested-people .thumbnail{
+    padding: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+.interested-people ul li{
+	padding-right: 0;
+	min-width: 32%;
+	margin-bottom: 5px;
+}
+.interested-people .more-people a{
+	font-size: 21px;
+	font-weight: 700;
+	color: #575050;
+}
+
+/* ++++++++++++++++++++ CSS for browse page-> page-main-content Section ++++++++++++++++++++*/
+
+.browse-padding{
+	padding: 24px 0 100px;
+}
+.search-result-header{
+	color: #464444;
+	font-size: 14px;
+    margin-bottom: 20px;
+}
+.search-result-header ul li h4{
+	font-weight: 600;
+	font-size: 22px;
+	color: #464444;
+	margin-top: 0;
+}
+.search-result-header ul li label{
+	font-weight: 400;
+	padding-right: 30px;
+}
+.search-result-header ul li select{
+	background-color: transparent;
+	padding: 8px 40px 8px 20px;
+	border: 1px solid #d9d6d6;
+	border-radius: 10px;
+	outline: 0;
+}
+.search-result{
+	background: #fff;
+	padding: 22px 0 22px 22px;
+	color: #3a3a3a;
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+.search-result .col-md-10{
+	padding-left: 0;
+}
+.search-result .col-md-2{
+	padding-right: 0;
+    width: 12.666667%;
+}
+.search-result address{
+	font-size: 15px;
+	font-weight: 600;
+	color: #7d7d7d;
+	margin-bottom: 0;
+}
+.search-result h3{
+	font-weight: 600;
+	font-size: 24px;
+	margin: 0 0 5px;
+}
+.search-result p{
+	color: #4f4d4d;
+}
+.search-filter{
+	background: #ffffff;
+	padding: 20px 13px 60px;
+	color: #464444;
+	margin-top: 54px;
+}
+.search-filter h4{
+	color: #464444;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+}
+.search-filter button{
+	background-color: transparent;
+	border: none;
+	outline: 0;
+	margin-top: -5px;
+	font-size: 12px;
+}
+.search-filter select{
+	border: 1px solid #d9d6d6;
+	background-color: transparent;
+	padding: 5px 10px;
+	border-radius: 5px;
+	outline: 0;
+	margin: 15px 0;
+	font-size: 14px;
+    width: 80%; 
+}
+.search-filter label{
+	font-weight: 400;
+	font-size: 16px;
+	position: relative;
+	display: block;
+	text-align: left;
+}
+.search-filter label:before{
+	font-family: FontAwesome;
+	content: "\f107";
+	background: #fff200;
+	margin-right: 13px;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+.calendar .widget-title{
+	text-transform: capitalize;
+	color: #464444;
+	font-size: 22px;
+	margin: 0 0 28px 0; 
+}
+
+/* ++++++++++++++++++++ jquery ui css for Calendar ++++++++++++++++++++*/
+
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: 18px 15px;
+	background: #442b4f;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 100%;
+	margin-top: -8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+}
+.ui-datepicker select.ui-datepicker-year{
+	float: right;
+	font-size: 21px;
+	color: #fff200;
+}
+.ui-datepicker select.ui-datepicker-month{
+	font-size: 19px;
+	color: #ffffff;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	border: none;
+	background-color: transparent;
+	outline: 0;
+	font-weight: bold;
+}
+.ui-datepicker select.ui-datepicker-year option,
+.ui-datepicker select.ui-datepicker-month option{
+	background: #442b4f;
+	outline: 0 !important;
+	border: none;
+	font-size: 16px;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: 15px;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	background: #fff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.ui-datepicker th {
+    padding: 25px 8px 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    font-size: 16px;
+    color: #cfcfcf;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: 5px 4px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	color: #737373;
+	font-weight: bold;
+}
+.ui-datepicker table tbody tr:last-child td{
+	padding-bottom: 20px;
+}
+.ui-datepicker .ui-state-active{
+	background: #cfcfcf;
+	border-radius: 50%;
+}
+ .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+.ui-widget-header .ui-icon {
+   visibility: hidden;
+   position: relative;
+   display: block;
+}
+.ui-widget-header .ui-icon-circle-triangle-w:after, 
+.ui-widget-header .ui-icon-circle-triangle-e:after{
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: FontAwesome;
+}
+
+.ui-widget-header .ui-icon-circle-triangle-w:after {
+	
+	content: "\f104";
+}
+.ui-widget-header .ui-icon-circle-triangle-e:after {
+	content: "\f105";
+}
+
+
+/* ++++++++++++++++++++ CSS for footer Section ++++++++++++++++++++*/
+
+#footer{
+	background: #311c3c;
+	padding: 85px 0 50px;
+}
+.footer-widget-area{
+	border-top: 1px solid #8e8493;
+	padding-top: 35px;
+}
+.footer-widget-title{
+	font-size: 20px;
+	font-weight: 700;
+	color: #dddcdc;
+	margin:0 0 40px;
+}
+.footer-menu ul li a{
+	font-size: 20px;
+	color: #dddcdc;
+	font-weight: 600;
+}
+.footer-menu ul, 
+.footer-social ul{
+    margin-bottom: 10px;
+}
+.footer-menu ul li{
+	margin: 0;
+	padding: 0 0 20px;
+}
+.footer-menu ul li:last-child{
+	padding-bottom: 0;
+}
+.footer-social ul li a{
+	font-size: 20px;
+	color: #988e9e;
+}
+.footer-social ul li{
+	padding-right: 30px;
+}
+.select-language{
+	margin-top: 15px;
+}
+.select-language select {
+	background: #000;
+	font-size: 18px;
+	color: #dddcdc;
+	padding: 20px 30px;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	outline: 0;
+}
+.download-option{
+	margin-top: 30px;
+}
+
+/*+++++++++++++++Button in filter+++++++++++++++++++++*/
+.all-button a,a.btn-default:hover{
+	background-color: #fff200;
+	border-color: #fff200;
+}
+
+.search-filter select {
+    border: 1px solid #d9d6d6;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 0;
+    outline: 0;
+    margin: 15px 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+.filter::after {
+	font-size:12px;
+    content: "\25bc";
+    position: absolute;
+    top: 12px;
+    right: 1px;
+    bottom: auto;
+    width: 25px;
+    line-height: 38px;
+    vertical-align: middle;
+    text-align: center;
+    color: #000;
+    pointer-events: none;
+}
+.all-button a, a.btn-default {
+    background-color: #E1D501;
+    border-color: #E1D501;
+	width:100%;
+}
+.reset button{
+	margin-top:15px;
+}
+.all-events .thumbnail .caption{
+	padding:0px 5px 5px;
+	text-align:left;
+}
+.all-events .thumbnail .caption p{
+	margin: 0 0 5px;
+}
+.event-dt,.event-cat{
+	display:block;
+	color:#777;
+	font-size:11px;
+	text-align:left;
+}
+.event-dt{
+	color:#333;
+	font-size:9px;
+}
+
+.event-dtt{
+	color:#333;
+	font-size:11px;
+}
+
+
+
+#footer{
+	padding:10px;
+	text-align: center;
+}
+#footer p{
+	font-size:12px;
+	color:#f0f0f0;
+}
+
+.header-content h1{
+	font-size:36px;
+}
+
+
+
+.lss{
+	margin-top:40px;
+	background:#fff;
+	padding:10px 10px 10px;
+	margin-bottom:20px;
+}
+.search-filter {
+	padding:0;
+}
+.lss .search-widget .input-group{
+	margin-top:15px;
+}
+.lss .widget{
+	margin-bottom:30px;
+}
+.lss .filter-widget{
+	margin-bottom:0;
+}
+.lss .collapse-widget {
+    margin-bottom: 0;
+}
+
+.lss .widget .widget-title{
+	margin:10px 0 0;
+}
+.lss .search-filter{
+	margin-top:0;
+}
+.lss .city-widget .all-button a, .lss .city-widget a.btn-default {
+	width:30%;
+}

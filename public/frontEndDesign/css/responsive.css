@@ -1,0 +1,335 @@
+/*For xs device same code*/
+
+@media(max-width: 767px){
+
+/*=================================== Start Homepage ====================================*/
+.navbar-default .navbar-brand {
+    margin-right: 0;
+}
+.footer-menu .footer-widget-title{
+	margin:40px 0;
+}
+.footer-social{
+	margin-top: 30px;
+}
+#page-main-content img{
+	width: 100%;
+}
+
+/*=================================== Start Event Details page ====================================*/
+
+#page-main-content .media-left img {
+    width: auto;
+}
+.event-details-heading h2 {
+    font-size: 16px;
+    line-height: 32px;
+}
+.event-details-comment {
+    margin-bottom: 30px;
+}
+.blank-page h1{
+    font-size: 20px;
+}
+
+/*=================================== Start Browse page ====================================*/
+
+.search-filter {
+    margin-bottom: 30px;
+}
+.search-result .col-md-2{
+    width: auto;
+}
+.search-result h3 {
+    font-size: 20px;
+}
+.search-result .col-md-10 {
+    padding-left: 15px;
+}
+.calendar .widget-title {
+    margin: 30px 0 28px 0;
+}
+.ui-datepicker select.ui-datepicker-month {
+    font-size: 16px;
+}
+.ui-datepicker select.ui-datepicker-year {
+    font-size: 17px;
+}
+.ui-datepicker th {
+    font-size: 14px;
+}
+.ui-datepicker .ui-state-active {
+    border-radius: 0;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    font-size: 14px;
+}
+
+}/*End of 767px*/
+
+/*For xs device*/
+
+@media(max-width: 320px){
+
+/*=================================== Start Homepage ====================================*/
+.header-content {
+    width: 240px;
+    padding-top: 10px;
+}
+.header-content h1 {
+    font-size: 20px;
+    line-height: 35px;
+}
+.navbar-right .btn-default {
+    font-size: 15px;
+    padding: 7px 20px;
+}
+.footer-social ul li {
+    padding-right: 20px;
+}
+.download-option .pull-right{
+	float: none !important;
+}
+
+/*=================================== Start Event Details page ====================================*/
+
+.event-details-heading .post-meta .author-img img {
+    margin-top: 0px;
+}
+.event-details-heading .interest ul li button {
+    width: 100px;
+}
+.interested-people .widget-title {
+    font-size: 22px;
+}
+.interested-people .more-people a {
+    font-size: 18px;
+}
+.event-reminder-and-location i {
+    font-size: 20px;
+}
+
+/*=================================== Start Browse page ====================================*/
+
+.search-result-header .pull-right{
+	float: none !important;
+}
+
+
+}/*End of 320px*/
+
+@media(min-width: 321px) and (max-width: 480px){
+
+/*=================================== Start Homepage ====================================*/
+.download-option .pull-right{
+	float: none !important;
+}
+.header-content {
+    width: 300px;
+    padding-top: 20px;
+}
+.header-content h1 {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/*=================================== Start Event Details page ====================================*/
+
+.event-details-heading .post-meta .author-img img {
+    margin-top: 0px;
+}
+
+/*=================================== Start Browse page ====================================*/
+
+.search-result-header .pull-right{
+	float: none !important;
+}
+
+	
+}/*End of 480px*/
+
+@media(min-width: 481px) and (max-width: 640px){
+	
+
+}/*End of 640px*/
+
+@media(min-width: 641px) and (max-width: 767px){
+
+	
+
+}/*End of 767px*/
+
+/*For sm device*/
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+/*=================================== Start Homepage ====================================*/
+
+.navbar-default .navbar-brand {
+    margin-right: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size: 15px;
+}
+.nav > li > a {
+    padding: 10px 10px;
+}
+.navbar-right .btn-default {
+    font-size: 14px;
+    padding: 7px 20px;
+}
+#page-main-content img{
+	width: 100%;
+}
+.event-filter-by-date {
+    padding: 25px 5px;
+
+}
+.searching-event-date {
+    font-size: 16px;
+}
+.download-option .pull-right{
+	float: none !important;
+}
+
+/*=================================== Start Event Details page ====================================*/
+
+#page-main-content .media-left img {
+    width: auto;
+}
+.event-details-heading .post-meta .author-img img {
+    margin-top: 0;
+}
+.event-details-heading .interest ul li button {
+    width: 100px;
+}
+.event-reminder-and-location i {
+    font-size: 20px;
+}
+.interested-people .widget-title {
+    font-size: 21px;
+}
+.interested-people .more-people a {
+    font-size: 18px;
+}
+
+
+/*=================================== Start Browse page ====================================*/
+
+.search-result .col-md-2{
+    width: auto;
+}
+.search-result .col-md-10 {
+    padding-left: 15px;
+}
+.ui-datepicker select.ui-datepicker-month {
+    font-size: 14px;
+}
+.ui-datepicker select.ui-datepicker-year {
+    font-size: 15px;
+}
+.ui-datepicker th {
+    font-size: 13px;
+    padding: 25px 0px 10px;
+}
+.search-filter label::before {
+    margin-right: 8px;
+}
+.search-filter label {
+    font-size: 14px;
+}
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 12px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    font-size: 14px;
+    padding: 5px 3px;
+}
+.ui-datepicker td {
+    padding: 0px;
+}
+.ui-datepicker .ui-state-active {
+      border-radius: 0;
+}
+.search-filter select {
+    width: 100%;
+}
+	
+}/*End of 991px*/
+
+/*For md device*/
+
+@media(min-width: 992px) and (max-width: 1024px){
+
+/*=================================== Start Event Details page ====================================*/
+
+.interested-people ul li {
+    padding-left: 0;
+}
+/*=================================== Start Browse page ====================================*/
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 12px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    font-size: 14px;
+    padding: 5px 3px;
+}
+.ui-datepicker td {
+    padding: 0px;
+}
+.ui-datepicker select.ui-datepicker-month {
+    font-size: 14px;
+}
+.ui-datepicker select.ui-datepicker-year {
+    font-size: 15px;
+}
+.ui-datepicker th {
+    font-size: 13px;
+    padding: 25px 0px 10px;
+}
+
+
+	
+}/*End of 1024px*/
+
+@media(min-width: 1025px) and (max-width: 1199px){
+
+/*=================================== Start Event Details page ====================================*/
+
+.interested-people ul li {
+    padding-left: 0;
+}
+/*=================================== Start Browse page ====================================*/
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 12px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    font-size: 14px;
+    padding: 5px 3px;
+}
+.ui-datepicker td {
+    padding: 0px;
+}
+.ui-datepicker select.ui-datepicker-month {
+    font-size: 14px;
+}
+.ui-datepicker select.ui-datepicker-year {
+    font-size: 15px;
+}
+.ui-datepicker th {
+    font-size: 13px;
+    padding: 25px 0px 10px;
+}
+
+
+}/*End of 1199px*/
+
+@media(min-width: 768px){
+    
+    .collapse{
+        display: block;
+        height: auto !important;
+    }
+
+}
